@@ -47,7 +47,7 @@ def forca(numero_tentativas):
         return
 ```
 
-Posteriormente foi criada uma função capaz de substituir, nas palavras que possuem acento, a letra acentuada pela letra sem a marcação gráfica. Isso foi necessário para que o usuário não necessitasse diferenciar as letras acentuadas ou não acentuadas, e para o programa não ter diferenciação entre a letra acentuada ou não. O resto do código pode ser encontrado no arquivo '<a href=https://github.com/mathwatanabe/Jogo-da-forca-v1/blob/main/Jogo-da-forca-v1.py>Jogo-da-forca-v1.py</a>'
+Posteriormente foi criada uma função capaz de substituir, nas palavras que possuem acento, a letra acentuada pela letra sem a marcação gráfica. Isso foi necessário para que o usuário não necessitasse diferenciar as letras acentuadas ou não acentuadas, e para o programa não ter diferenciação entre a letra acentuada ou não. O resto do código pode ser encontrado no arquivo '<a href=https://github.com/mathwatanabe/Jogo-da-forca-v2/blob/main/Jogo-da-forca-v2.py>Jogo-da-forca-v2.py</a>'
 ```neon
 def substituir(palavra):
     #Essa variável será a palavra escolhida do dicionário de forma aleatória posteriormente
@@ -77,7 +77,7 @@ def letras_palavra(charada):
             memoria_resposta.append('_')
     return memoria_resposta
 ```
-Por fim, foi criado o bloco de código responsável pela dinâmica do jogo. Mais detalhes acerca do código podem ser encontrados em '<a href=https://github.com/mathwatanabe/Jogo-da-forca-v1/blob/main/Jogo-da-forca-v1.py>Jogo-da-forca-v1.py</a>'. Em resumo, a função <code>choice</code> foi chamada para realizar a escolha aleatória no dicionário contendo as palavras a serem adivinhadas.
+Por fim, foi criado o bloco de código responsável pela dinâmica do jogo. Mais detalhes acerca do código podem ser encontrados em '<a href=https://github.com/mathwatanabe/Jogo-da-forca-v2/blob/main/Jogo-da-forca-v2.py>Jogo-da-forca-v2.py</a>'. Em resumo, a função <code>choice</code> foi chamada para realizar a escolha aleatória no dicionário contendo as palavras a serem adivinhadas.
 ```neon
 def game():
     #Execução da limpeza de tela
