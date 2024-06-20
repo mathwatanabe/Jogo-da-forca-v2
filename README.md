@@ -4,7 +4,7 @@
 O objetivo do presente projeto foi o desenvolvimento de um jogo da forca simples com uma espécie de tabuleiro definido, utilizando a '<a href=https://github.com/mathwatanabe/Jogo-da-forca-v1>Versão 1</a>' como base. O intuito principal do trabalho foi o aprimoramento e aprofundamento na prática de conceitos e técnicas da linguagem Python. Além disso, uma das principais competências utilizadas foi a transformação dos dados de um arquivo do tipo csv em um objeto do tipo dicionário em Python. Outro conceito importante foi a utilização do pacote <code>random</code> e o aprofundamento na construção de funções. Dessa forma, o foco do projeto não foi a construção de um código otimizado, com menor tempo de execução ou simplificação, mas sim para o aperfeiçoamento e desenvolvimento de habilidades e competências referentes à linguagem Python.
 
 ## Ferramentas
-* Python 3.9.13
+* Python 3.10.13
 
 ## Desenvolvimento
 Foi utilizado o dicionário de palavras produzido na versão 1. A produção desse dicionário está explicada e definida nela.
